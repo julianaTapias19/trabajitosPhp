@@ -9,7 +9,7 @@
 
         print "conexion exitosa <br>";
 
-    }catch(Exeption $e){
+    }catch(Exception $e){
         print "error en la conexion <br>";
     }
 ?>

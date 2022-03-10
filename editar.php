@@ -9,7 +9,7 @@
     $id=$_GET['id'];
 
     $sentencia=$db->prepare("SELECT * FROM aprendices WHERE id=?;");
-    $sentencia=excute([$id]);
+    $sentencia=execute([$id]);
     $registro=$sentencia->fetch(PDO::FETCH_OBJ)
 
 ?>
